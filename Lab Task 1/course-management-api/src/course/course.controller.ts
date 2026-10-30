@@ -7,7 +7,7 @@ export class CourseController {
 
     @Get() 
 
-    getAll() : string { 
+    getAllCourses() : string { 
         return this.courseService.getAllCourses();
      }
     
